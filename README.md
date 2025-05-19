@@ -1,39 +1,42 @@
+Sure, I can help you format this information into a proper README.md file. Here's how you can structure it:
+
+markdown
 # MERN Ecommerce Platform
 
-A simple ecommerce platform built using the *MERN stack* (MongoDB, Express.js, React, Node.js). This project supports multiple user roles and simulates a real-world ecommerce system with core functionality. It was developed as part of a learning internship to gain hands-on experience with full-stack web development.
+A simple ecommerce platform built using the **MERN stack** (MongoDB, Express.js, React, Node.js). This project supports multiple user roles and simulates a real-world ecommerce system with core functionality. It was developed as part of a learning internship to gain hands-on experience with full-stack web development.
 
 ## Features
 
-- *User Roles*:
-  - *Buyers*: Browse products, categories, and brands.
-  - *Sellers*: Manage their own brand and product listings.
-  - *Admins*: Control all store components.
-- *Tech Stack*:
-  - *Node.js*: Backend runtime environment.
-  - *Express.js*: API and middleware handling.
-  - *MongoDB & Mongoose*: NoSQL database and data modeling.
-  - *React.js*: Frontend user interface.
-  - *Redux & Redux Thunk*: State management and asynchronous actions.
+- **User Roles**:
+  - **Buyers**: Browse products, categories, and brands.
+  - **Sellers**: Manage their own brand and product listings.
+  - **Admins**: Control all store components.
+- **Tech Stack**:
+  - **Node.js**: Backend runtime environment.
+  - **Express.js**: API and middleware handling.
+  - **MongoDB & Mongoose**: NoSQL database and data modeling.
+  - **React.js**: Frontend user interface.
+  - **Redux & Redux Thunk**: State management and asynchronous actions.
 
 ## Installation
 
-1. *Clone the repository*:
+1. **Clone the repository**:
    bash
-   git clone https://github.com/chetanbabne/Rooman-Internship---Ecommerce-Platform-Integration.git
+   git clone `https://github.com/chetanbabne/Rooman-Internship---Ecommerce-Platform-Integration.git`
    cd Rooman-Internship---Ecommerce-Platform-Integration
    
 
-2. *Install dependencies*:
+3. **Install dependencies**:
    In the root directory, run the following command to install dependencies for both the client and server:
    bash
    npm install
    
 
-3. *Set up environment variables*:
-   - Create a .env file in both the client/ and server/ directories.
-   - Refer to the .env.example files in each directory for the required variables.
+4. **Set up environment variables**:
+   - Create a `.env` file in both the `client/` and `server/` directories.
+   - Refer to the `.env.example` files in each directory for the required variables.
 
-4. *Start development*:
+5. **Start development**:
    To start both the client and server in development mode, run:
    bash
    npm run dev
